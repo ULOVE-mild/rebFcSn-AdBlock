@@ -14,8 +14,8 @@ bitcotasks.com##^script:has-text(/onerror|detected.html/)
 bitcotasks,earnhub.net##ins[style^="display:inline-block"]
 ||bmcdn5.com^$script,redirect-rule=noop.js
 ||bmcdn6.com^
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech##^script:has-text(htmls)
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech##+js(aeld, load, htmls)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
 @@||pagead2.googlesyndication.com^$domain=mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|wiour.com|btcsatoshi.net|crypto4yu.com|readbitcoin.org|manofadan.com|cryptorotator.website|blog24.me
 *$csp=style-src *,domain=blog.cryptowidgets.net|blog.insurancegold.in|blog.wiki-topia.com|carsmania.net|carstopia.net|coinsvalue.net|cookinguide.net|freeoseocheck.com|makeupguide.net
 cryptowidgets.net,insurancegold.in,wiki-topia.com,carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(rmnt, script, /window\.location|Adblock/)
@@ -208,6 +208,7 @@ ckk.ai,tii.la,oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor|ads\/load/)
 tii.la##+js(no-xhr-if, /pagead2\.googlesyndication\.com|inklinkor\.com/)
 *$script,redirect-rule=noopjs,domain=oko.sh|ckk.ai|tii.la
 ckk.ai,tii.la,oko.sh##+js(no-xhr-if, inklinkor.com)
+oko.sh##+js(rmnt, script, /document\.createElement|\.banner-in/)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##+js(aopr, detectAdBlock)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wpsafe-link:style(display: block !important)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
@@ -233,3 +234,10 @@ bitsmagic.fun,ourcoincash.xyz##+js(rmnt, script, htmls)
 @@||mynewsmedia.co^$ghide
 mynewsmedia.co,revadvert.com##iframe[id^="google_ads_iframe"]:style(height: 1px !important;)
 mynewsmedia.co,revadvert.com###footer-sticky-ad
+bitzite.com##+js(aeld, load, htmls)
+bitzite.com##+js(ra, href, .MyAd > a[target="_blank"])
+bitzite.com##.buttonnya:style(display: block !important;)
+||bitzite.com,dailytime.store/dtban.jpg
+dailytime.store##+js(aopr, adsBlocked)
+dailytime.store##.text-left
+dailytime.store##.banner-inner
