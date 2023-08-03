@@ -646,3 +646,5 @@ blog24.me##p:nth-of-type(12)
 blog24.me##p:nth-of-type(13)
 blog24.me##p:nth-of-type(14)
 blog24.me##p:nth-of-type(15)
+exeo.app##.steps-container
+exeo.app##article
