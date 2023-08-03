@@ -629,3 +629,20 @@ monimag.com##span:nth-of-type(8)
 monimag.com##span
 oscut.fun##.blog-details
 oscut.fun##header > h1
+blog24.me##li
+blog24.me##.sc-content-aside
+blog24.me##.footer
+blog24.me##.sc-content-header
+blog24.me##p:nth-of-type(3)
+blog24.me##p:nth-of-type(2)
+blog24.me##p:nth-of-type(4)
+blog24.me##p:nth-of-type(5)
+blog24.me##p:nth-of-type(6)
+blog24.me##p:nth-of-type(8)
+blog24.me##p:nth-of-type(9)
+blog24.me##p:nth-of-type(10)
+blog24.me##p:nth-of-type(11)
+blog24.me##p:nth-of-type(12)
+blog24.me##p:nth-of-type(13)
+blog24.me##p:nth-of-type(14)
+blog24.me##p:nth-of-type(15)
