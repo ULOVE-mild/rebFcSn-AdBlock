@@ -241,3 +241,4 @@ bitzite.com##.buttonnya:style(display: block !important;)
 dailytime.store##+js(aopr, adsBlocked)
 dailytime.store##.text-left
 dailytime.store##.banner-inner
+*$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
