@@ -237,3 +237,6 @@ dailytime.store##.banner-inner
 bitcotasks.com##+js(acs, document.createElement, adsBlocked)
 bitcotasks.com##+js(set, time, 0)
 bitcotasks.com##[src^="https://cryptocoinsad.com/ads/"]
+bitcotasks.com##+js(aeld, load, htmls)
+bitcotasks.com##^script:has-text(htmls)
+/files/banners/*.gif$image,domain=bitcotasks.com
