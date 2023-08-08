@@ -234,3 +234,6 @@ dailytime.store##+js(aopr, adsBlocked)
 dailytime.store##.text-left
 dailytime.store##.banner-inner
 *$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
+bitcotasks.com##+js(acs, document.createElement, adsBlocked)
+bitcotasks.com##+js(set, time, 0)
+bitcotasks.com##[src^="https://cryptocoinsad.com/ads/"]
