@@ -5,9 +5,9 @@
 ! New filters from July 2023 to ->
 
 offers4crypto.xyz,ewall.biz,walloffer.com,cryptoad.org,profitswall.com,dripoffers.com,bitcotasks.com,adwallgate.com,offerwallmedia.com,offerwhales.com##+js(set, time, 0)
-offerwallmedia.com,hereofamily.com,go2.freetrx.fun,read4btc.com##+js(nano-sib, timer)
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
+offerwallmedia.com,hereofamily.com,go2.freetrx.fun,bitcotasks.com,read4btc.com##+js(nano-sib, timer)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
+read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
 @@||pagead2.googlesyndication.com^$domain=mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|wiour.com|btcsatoshi.net|crypto4yu.com|readbitcoin.org|manofadan.com|cryptorotator.website|blog24.me|free-pepe.com
 *$csp=style-src *,domain=blog.cryptowidgets.net|blog.insurancegold.in|blog.wiki-topia.com|carsmania.net|carstopia.net|coinsvalue.net|cookinguide.net|freeoseocheck.com|makeupguide.net
 cryptowidgets.net,insurancegold.in,wiki-topia.com,carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(rmnt, script, /window\.location|Adblock/)
@@ -26,10 +26,10 @@ carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,mak
 carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(set, document.hasFocus, trueFunc)
 carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com##+js(acs, document.getElementById, /ad(d|ss)/)
 carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net###ad\.js
-paylinks.cloud,exalink.fun,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(nostif, check, 1)
-paylinks.cloud,exalink.fun,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(rmnt, script, adBlockDetected)
-paylinks.cloud,exalink.fun,cryptowidgets.net,insurancegold.in,wiki-topia.com##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
-@@||www.ourtecads.com^$domain=exalink.fun|paylinks.cloud
+paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(nostif, check, 1)
+paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(rmnt, script, adBlockDetected)
+paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
+@@||www.ourtecads.com^$domain=exalink.fun|paylinks.cloud|bitcotasks.com
 ||linearicons.com^$domain=exeo.app
 ||clickiocdn.com/*log$script,important,from=mcafee-com.com,badfilter
 ||mcafee-com.com^$csp=script-src *
