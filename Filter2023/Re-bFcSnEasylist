@@ -627,6 +627,8 @@ nguyenvanbao.com##.mobile-grid-100.tablet-grid-50.grid-33.grid-parent.footer-wid
 nguyenvanbao.com##.mobile-grid-100.tablet-grid-50.grid-33.grid-parent.footer-widget-3
 nguyenvanbao.com##div:nth-of-type(5)
 hookeaudio.com##.col.large-12 > .col-inner
+hookeaudio.com###main
+hookeaudio.com##.header-wrapper
 web1s.info##.text-center.mt-2
 web1s.info##[src="https://www.youtube.com/embed/e_SMDjKXbEY"]
 web1s.info##h4.mb-3:nth-of-type(2)
