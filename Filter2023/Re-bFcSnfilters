@@ -15,12 +15,9 @@ bitcotasks,earnhub.net##ins[style^="display:inline-block"]
 ||bmcdn5.com^$script,redirect-rule=noop.js
 ||bmcdn6.com^
 @@||d3u598arehftfk.cloudfront.net^$domain=bitcotasks.com
-@@||googletagmanager.com^$domain=bitcotasks.com
 bitcotasks.com##+js(nostif, offsetWidth)
-btcbitco.in,btcsatoshi.net,wiour.com###aOWu5m07vzq1edz:style(height: 150px !important;)
-@@||googletagmanager.com/gtag/js$domain=bitcotasks.com|btcsatoshi.net|wiour.com
-@@||hbagency.it/cdn/tcf2_cmp_hbagency.js$domain=bitcotasks.com|btcsatoshi.net|wiour.com
-btcbitco.in,btcsatoshi.net,wiour.com##.post > center > [href] > img
+@@||googletagmanager.com/gtag/js$domain=bitcotasks.com
+@@||hbagency.it/cdn/tcf2_cmp_hbagency.js$domain=bitcotasks.com
 ||cryptocoinsad.com^$third-party
 read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
 read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
@@ -193,6 +190,8 @@ btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com
 btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,manofadan.com##div[align="center"][id]:style(height: 30px !important;)
 @@||pagead2.googlesyndication.com/pagead/*$domain=www.btcbitco.in|btcsatoshi.net|wiour.com|crypto4yu.com|readbitcoin.or|manofadan.com
 @@||cdn.bmcdn5.com^$domain=btcsatoshi.net|btcbitco.in|wiour.com|crypto4yu.com|readbitcoin.org|manofadan.com
+btcbitco.in,btcsatoshi.net,wiour.com###aOWu5m07vzq1edz:style(height: 150px !important;)
+btcbitco.in,btcsatoshi.net,wiour.com##.post > center > [href] > img
 @@||pagead2.googlesyndication.com^$domain=gaminginfos.com
 gaminginfos.com##+js(rmnt, script, /userAgent|adb|htmls/)
 gaminginfos.com##+js(aopr, document.write)
