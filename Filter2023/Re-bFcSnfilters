@@ -159,6 +159,7 @@ techcyan.com#@#.disadb
 techcyan.com###wg-genx > .disadb > .txtx
 exactpay.online##+js(aopr, htmls)
 exactpay.online##+js(set, document.hasFocus, trueFunc)
+exactpay.online##+js(nostif, offsetWidth)
 ||exactpay.online/forex/index.js
 exalink.fun##+js(set, blurred, false)
 ||earnbitmoon.club/promo/EBM-300x250.gif
