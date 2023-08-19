@@ -17,8 +17,9 @@ bitcotasks,earnhub.net##ins[style^="display:inline-block"]
 @@||d3u598arehftfk.cloudfront.net^$domain=bitcotasks.com
 @@||googletagmanager.com^$domain=bitcotasks.com
 @@||cdnjs.cloudflare.com^$domain=bitcotasks.com
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
-read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
+quesignifi.ca##+js(rc, is-hidden)
+bitcosite.com,exactpay.online,read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
+bitcosite.com,exactpay.online,read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
 @@||pagead2.googlesyndication.com^$domain=mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|crypto4yu.com|readbitcoin.org|cryptorotator.website|blog24.me|rapidshort.lat|gktech.uk|free-pepe.com
 *$csp=style-src *,domain=blog.cryptowidgets.net|blog.insurancegold.in|blog.wiki-topia.com|carsmania.net|carstopia.net|coinsvalue.net|cookinguide.net|freeoseocheck.com|makeupguide.net
 cryptowidgets.net,insurancegold.in,wiki-topia.com,carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(rmnt, script, /window\.location|Adblock/)
@@ -140,16 +141,16 @@ mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.ne
 /\/uniqueten\.net\/[a-z]+\.js$/$script,important
 /adblock-detect.js$script,important,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, console)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol,short2url.xyz#@##adsiframe
-@@||ad.a-ads.com/*?size=320x50$object,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|short2url.xyz
-@@||banner.infoey.com/adbanner.png$domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|short2url.xyz
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lo,short2url.xyzl###content > form[id]:has(> center > button):style(display: block !important;)
-||mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol|short2url.xyz/2x.png
-||mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol|short2url.xyz/300x600.png
-@@||taxedborley.com^$domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|short2url.xyz
-*$object,empty,domain=mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol|short2url.xyz
+mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol#@##adsiframe
+@@||ad.a-ads.com/*?size=320x50$object,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+@@||banner.infoey.com/adbanner.png$domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###content > form[id]:has(> center > button):style(display: block !important;)
+||mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol/2x.png
+||mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol/300x600.png
+@@||taxedborley.com^$domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+*$object,empty,domain=mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
 #@##adsiframe
-short2url.xyz,mdn.lol##+js(nostif, /\.innerHtml|offsetWidth/)
+mdn.lol##+js(nostif, /\.innerHtml|offsetWidth/)
 @@||ads2.banaraswap.in^$domain=techcyan.com
 @@||stats.wp.com^$domain=techcyan.com
 techcyan.com#@#.disadb
@@ -219,6 +220,9 @@ unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
 bazadecrypto.com##+js(nostif, myinfoey, 1500)
 bazadecrypto.com##body:style(display: block !important)
 mrproblogger.com,themezon.net##+js(aeld, load, doTest)
+short2url.xyz##form[id]:style(display: block !important;)
+short2url.xyz##.banner-inner
+||faucettrx.store/default.php
 bigbtc.win##^script:has-text(/block-adb|-0x/)
 !#if !cap_html_filtering
 bigbtc.win##+js(rmnt, script, /block-adb|-0x/)
@@ -245,6 +249,7 @@ bitzite.com##.buttonnya:style(display: block !important;)
 dailytime.store##+js(aopr, adsBlocked)
 dailytime.store##.text-left
 dailytime.store##.banner-inner
+terafly.me##+js(nostif, checkAdblockUser)
 *$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
 *$image,redirect-rule=1x1.gif,domain=shrinkbit.in
 cryptospaying.com##^script:has-text(htmls)
