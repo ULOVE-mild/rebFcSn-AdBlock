@@ -64,6 +64,12 @@ go2.freetrx.fun,claimlite.club##+js(nostif, _0x)
 *$script,domain=grabcrypto.co|freebnb.top,redirect-rule=noopjs
 pinoyfaucet.com##+js(no-fetch-if, /^/)
 pinoyfaucet.com###wcfloatDiv4
+btcpany.com,zombiebtc.com,blog.panytourism.online###link1s-snp:style(display: block !important;)
+||cdn.jsdelivr.net/gh/vgmjs/assets/adb.js$script,domain=shrinkbit.in
+shrinkbit.in###wait1button, #wait2button, .get-link:remove-attr(disabled)
+shrinkbit.in##.footer, .banner-inner, .text-left, #wait1button, #wait1
+shrinkbit.in##+js(rc, disabled)
+shrinkbit.in###wait2button:style(display: block !important;)
 freebnb.top##+js(no-xhr-if, /coinzillatag|czilladx/)
 *$script,xhr,redirect-rule=noopjs,domain=teethblock.com
 ||teethblock.com/banner/$image,1p
@@ -193,11 +199,11 @@ exactpay.online,ohionowcast.info,cryptozao.com,gaminginfos.com##div[align="cente
 @@||pagead2.googlesyndication.com^$domain=gaminginfos.com
 gaminginfos.com##+js(rmnt, script, /userAgent|adb|htmls/)
 gaminginfos.com##+js(aopr, document.write)
-v2p.icu,ltc25.in,blog24.me##+js(aeld, DOMContentLoaded, adsBlocked)
-v2p.icu,ltc25.in,blog24.me##+js(aeld, load, htmls)
-freecc.click,v2p.icu,ltc25.in,blog24.me##+js(nostif, alert)
-freecc.click,v2p.icu,ltc25.in,blog24.me##+js(aopr, Swal.fire)
-v2p.icu,ltc25.in,blog24.me##^script:has-text(htmls)
+v2p.icu,blog24.me##+js(aeld, DOMContentLoaded, adsBlocked)
+v2p.icu,blog24.me##+js(aeld, load, htmls)
+freecc.click,v2p.icu,blog24.me##+js(nostif, alert)
+freecc.click,v2p.icu,blog24.me##+js(aopr, Swal.fire)
+v2p.icu,blog24.me##^script:has-text(htmls)
 *$script,redirect-rule=noopjs,domain=blog24.me|v2p.icu
 *$xhr,redirect-rule=nooptext,domain=blog24.me|v2p.icu
 @@||go2.freetrx.fun^$ghide
@@ -208,6 +214,7 @@ go2.freetrx.fun##+js(aeld, load, htmls)
 wallarcade.com##+js(aopr, adsBlocked)
 @@*$script,1p,domain=shopforex.online|healdad.com|mobitaak.com|gamalk-sehetk.com|otechno.net
 @@||shopforex.online^$ghide
+@@||googletagmanager.com/gtm.js$domain=go.bitcosite.com
 ckk.ai,tii.la,oko.sh##.banner-inner
 ckk.ai,tii.la,oko.sh##+js(no-fetch-if, /googlesyndication|inklinkor|ads\/load/)
 tii.la##+js(no-xhr-if, /pagead2\.googlesyndication\.com|inklinkor\.com/)
