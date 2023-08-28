@@ -1,4 +1,4 @@
-! Title: Re-bFcSn Easylist
+! Title: Re-bFcSn Easylist V.0.1
 ! Description: Filters optimized for Block, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnEasylist
@@ -168,7 +168,6 @@ hereofamily.com##.z-1.block-html-after-header.header-block
 covemarkets.com###col-666290290
 covemarkets.com###col-513437187
 covemarkets.com###col-490194127
-byboe.com##.footer-1.footer.footer-widgets
 cuanhapkhau.com###section_1462138010 > .bg-loaded.bg-fill.fill.section-bg.bg
 cuanhapkhau.com###section_1462138010 > .relative.section-content
 cuanhapkhau.com##.thoi-trang-nam.section
@@ -182,12 +181,23 @@ cuanhapkhau.com##.page-title.category-page-title.shop-page-title
 cuanhapkhau.com##.col-inner > h3
 cuanhapkhau.com##.fill.absolute.section-bg-overlay
 cuanhapkhau.com###section_735396348 > .relative.section-content
-covemarkets.com,pennbookcenter.com,byboe.com,publicananker.com,lucidcam.com###content
-covemarkets.com,pennbookcenter.com,byboe.com,publicananker.com,lucidcam.com###col-857114277 > .col-inner
+covemarkets.com,pennbookcenter.com,publicananker.com,lucidcam.com###content
+covemarkets.com,pennbookcenter.com,publicananker.com,lucidcam.com###col-857114277 > .col-inner
 pennbookcenter.com###text-3
 pennbookcenter.com###text-4
 app.byboe.com,app.covemarkets.com##div.text-center.mb-2
 app.byboe.com,app.covemarkets.com##.footer
+byboe.com###main
+byboe.com###text-6
+byboe.com###text-7
+byboe.com##strong
+byboe.com###text-3 > .textwidget > p:nth-of-type(1)
+byboe.com###text-3 > .widget-title
+byboe.com###text-3 > .textwidget > p:nth-of-type(2)
+byboe.com##.header-wrapper
+directunlocks.com##.st-pusher
+directunlocks.com##.py-4.footer-bottom > .container
+cellunlocks.com##.site-wrapper-reveal
 awin68.me##.is-layout-flow.wp-block-column
 seosolutions.com.vn##.section
 68gamebai.io##b
@@ -416,12 +426,12 @@ cdrab.com###E62
 cdrab.com,offerinfo.net##hr
 linkmay.me##.text-left
 blog.financeandinsurance.xyz,go.theconomy.me###visits
-byboe.com,zaloqq.asia,seosolutions.com.vn,zombiebtc.com,blog.zombiebtc.com,btcpany.com###masthead
+zaloqq.asia,seosolutions.com.vn,zombiebtc.com,blog.zombiebtc.com,btcpany.com###masthead
 autodime.com,zombiebtc.com,blog.zombiebtc.com,btcpany.com##.row
 zombiebtc.com,blog.zombiebtc.com,btcpany.com##.main-content
 zombiebtc.com,blog.zombiebtc.com,btcpany.com##[src="https://respinor.com/wp-content/uploads/2017/04/logo-dummy.png"]
 zombiebtc.com,blog.zombiebtc.com##.td-fix-index.tdb-block-inner
-zombiebtc.com##span
+monimag.com,zombiebtc.com##span
 zombiebtc.com##.content > div:nth-of-type(2)
 panytourism.online##.wrapper-outer
 zombiebtc.com##.row-hover
