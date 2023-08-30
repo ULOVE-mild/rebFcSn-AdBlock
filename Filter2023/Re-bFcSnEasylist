@@ -1,4 +1,4 @@
-! Title: Re-bFcSn Easylist V.0.3
+! Title: Re-bFcSn Easylist V.0.4
 ! Description: Filters optimized for Block, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnEasylist
@@ -44,7 +44,7 @@ beycoin.xyz##.col-md-7
 beycoin.xyz##.pb-4.px-4.rounded.col-md-12 > .justify-content-center.row > center
 bitsusdt.com##.home-stats
 bitsusdt.com##center > center
-bitsusdt.com
+blog.carsmania.net##.py-4.footer
 mdn.lol##div[style="min-width: 300px; min-height: 50px;"]
 mdn.lol##div[style="min-width: 728px; min-height: 90px;"]
 mdn.lol##.fa-xmark.svg-inline--fa
@@ -886,6 +886,7 @@ alpinecorporate.com##.admania-single-post-ftimage
 alpinecorporate.com##[href]
 alpinecorporate.com##.admania-header2-top
 alpinecorporate.com##.admania-sitefooter
+alpinecorporate.com###admania-primarysidebar
 short.claimbits.site##h4
 short.claimbits.site##p
 short.claimbits.site##strong
@@ -893,3 +894,12 @@ short.claimbits.site##h3
 short.claimbits.site##.box-main > center
 short.claimbits.site##.blog-item
 digitalmarktrend.com###container > .my-3
+go.theconomy.me##[src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FJunglerLG%2Fvideos%2F219848617404166%2F&show_text=false&width=560&t=0"]
+go.theconomy.me##[src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FJunglerLG%2Fvideos%2F225358747170087%2F&show_text=false&width=560&t=0"]
+textpro.me##.content-wrapper
+textpro.me##.navbar-inverse.navbar
+textpro.me##div.col-md-3:nth-of-type(2)
+textpro.me##div.col-md-3:nth-of-type(3)
+textpro.me##div.col-md-3:nth-of-type(4)
+textpro.me##div.col-md-3 > [src="/images/logo/logo.png"]
+textpro.me##h1
