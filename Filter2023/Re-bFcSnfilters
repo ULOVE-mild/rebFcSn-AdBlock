@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.4
+! Title: Re-bFcSn filters V.0.5
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -106,6 +106,7 @@ freebnb.top##+js(no-xhr-if, /coinzillatag|czilladx/)
 ||uphatter.com^$important
 ||vhb.io^$important
 ||netjtgcbe.xyz^$important
+||player.twitch.tv/$subdocument
 #@#.ad-box
 ~job.inshokuten.com,~sexgr.net,~webbtelescope.org##.ad-box:not(#ad-banner)
 cdrab.com,cryptfaucet.com,offerinfo.net##.adslr
@@ -167,13 +168,9 @@ mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.ne
 *$object,empty,domain=mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
 #@##adsiframe
 mdn.lol##+js(nostif, /\.innerHtml|offsetWidth/)
-@@||ads2.banaraswap.in^$domain=techcyan.com
-@@||stats.wp.com^$domain=techcyan.com
-techcyan.com#@#.disadb
-techcyan.com#@#+js(aeld, DOMContentLoaded, eval)
-techcyan.com,upshrink.com###wg-genx > .disadb > .txtx
-techcyan.com#@#.disadb
-techcyan.com###wg-genx > .disadb > .txtx
+techcyan.com#@#a[href*=".click"]
+techcyan.com##a[href*=".click"]:style(height:250px !important;left:-3000px !important;position:absolute !important)
+techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
 exactpay.online##+js(aopr, htmls)
 exactpay.online##+js(set, document.hasFocus, trueFunc)
 exactpay.online##+js(nostif, offsetWidth)
@@ -234,8 +231,6 @@ ckk.ai,tii.la,oko.sh##+js(rmnt, script, /document\.createElement|\.banner-in/)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##+js(aopr, detectAdBlock)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wpsafe-link:style(display: block !important)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
-bazadecrypto.com##+js(nostif, myinfoey, 1500)
-bazadecrypto.com##body:style(display: block !important)
 mrproblogger.com,themezon.net##+js(aeld, load, doTest)
 short2url.xyz##form[id]:style(display: block !important;)
 short2url.xyz##.banner-inner
@@ -271,6 +266,7 @@ terafly.me##+js(nostif, checkAdblockUser)
 *$image,redirect-rule=1x1.gif,domain=shrinkbit.in
 cryptospaying.com##^script:has-text(htmls)
 cryptospaying.com##+js(aeld, load, htmls)
+digitalmarktrend.com##+js(nano-sib)
 @@||digitalmarktrend.com^$ghide
 digitalmarktrend.com###overlay
 digitalmarktrend.com##+js(nowoif)
