@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.5
+! Title: Re-bFcSn filters V.0.5.1
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -266,12 +266,6 @@ terafly.me##+js(nostif, checkAdblockUser)
 *$image,redirect-rule=1x1.gif,domain=shrinkbit.in
 cryptospaying.com##^script:has-text(htmls)
 cryptospaying.com##+js(aeld, load, htmls)
-digitalmarktrend.com##+js(nano-sib)
-@@||digitalmarktrend.com^$ghide
-digitalmarktrend.com###overlay
-digitalmarktrend.com##+js(nowoif)
-digitalmarktrend.com##+js(acs, $, modal)
-digitalmarktrend.com##iframe[src="about:blank"]
-digitalmarktrend.com###iframe_id
-digitalmarktrend.com##^script:has-text(break;case $.)
-digitalmarktrend.com##+js(acs, JSON.parse, break;case $.)
+tophostingapp.com,digitalmarktrend.com,fc-lc.xyz###iframe_id
+tophostingapp.com,digitalmarktrend.com###s65c, [id^="ad"], .my-3, #footer, p
+tophostingapp.com,digitalmarktrend.com##+js(nano-sib)
