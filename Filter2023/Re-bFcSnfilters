@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.5.1
+! Title: Re-bFcSn filters V.0.5.2
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -118,6 +118,7 @@ cryptfaucet.com##.a3
 cryptfaucet.com##.a6
 cryptfaucet.com##[href="javascript:hidepromolll();"]
 ||thanks.viewfr.com/webroot/ads/adsterra/
+*$script,redirect-rule=noopjs,domain=freebnbcoin.com
 mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,rseducationinfo.com,rshostinginfo.com,rsadnetworkinfo.com,rsinsuranceinfo.com,rsfinanceinfo.com,rssoftwareinfo.com,cryptfaucet.com##.a, .b, .c, .d, .e, .f, .g
 @@||pagead2.googlesyndication.com^$domain=rseducationinfo.com|rshostinginfo.com|rsadnetworkinfo.com|rsinsuranceinfo.com|rsfinanceinfo.com|rssoftwareinfo.com
 @@||www.googletagmanager.com^$domain=mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
@@ -168,8 +169,13 @@ mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.ne
 *$object,empty,domain=mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
 #@##adsiframe
 mdn.lol##+js(nostif, /\.innerHtml|offsetWidth/)
+techacode.com,sahlmarketing.net###link, #btn6, #yuidea-snp:remove-attr(disabled)
+techacode.com,sahlmarketing.net###link, center, #yuidea-snp, #btn6:style(display: block !important;)
+techacode.com,sahlmarketing.net##+js(set, count, 0)
+techacode.com##+js(aopr, SMart1)
+techacode.com#@#+js(nowoif, !mtraffics)
 techcyan.com#@#a[href*=".click"]
-techcyan.com##a[href*=".click"]:style(height:250px !important;left:-3000px !important;position:absolute !important)
+techcyan.com##a[href*=".click"]:style(height: 1px !important; visibility: hidden !important;)
 techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
 exactpay.online##+js(aopr, htmls)
 exactpay.online##+js(set, document.hasFocus, trueFunc)
@@ -264,6 +270,8 @@ dailytime.store##.banner-inner
 terafly.me##+js(nostif, checkAdblockUser)
 *$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
 *$image,redirect-rule=1x1.gif,domain=shrinkbit.in
+adsy.pw###targetdiv, #containerr:style(display: block !important;)
+adsy.pw,playstore.pw##+js(set, PreRollAd.timeCounter, 0)
 cryptospaying.com##^script:has-text(htmls)
 cryptospaying.com##+js(aeld, load, htmls)
 tophostingapp.com,digitalmarktrend.com,fc-lc.xyz###iframe_id
