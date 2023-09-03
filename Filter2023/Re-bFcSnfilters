@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.5.2
+! Title: Re-bFcSn filters V.0.5.3
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -177,6 +177,8 @@ techacode.com#@#+js(nowoif, !mtraffics)
 techcyan.com#@#a[href*=".click"]
 techcyan.com##a[href*=".click"]:style(height: 1px !important; visibility: hidden !important;)
 techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
+techcyan.com#@#a[href*=".click"]:style(height: 1px !important; visibility: hidden !important;)
+techcyan.com##a[href*=".click"]:style(opacity: 0 !important; pointer-events: none !important;)
 exactpay.online##+js(aopr, htmls)
 exactpay.online##+js(set, document.hasFocus, trueFunc)
 exactpay.online##+js(nostif, offsetWidth)
