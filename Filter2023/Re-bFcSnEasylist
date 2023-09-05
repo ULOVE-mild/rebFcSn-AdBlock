@@ -1,4 +1,4 @@
-! Title: Re-bFcSn Easylist V.0.5.2
+! Title: Re-bFcSn Easylist V.0.5.4
 ! Description: Filters optimized for Block, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnEasylist
@@ -151,6 +151,15 @@ btcbitco.in###advantages
 btcbitco.in###challenges
 btcbitco.in###future
 btcbitco.in###conclusion
+btcbitco.in##.\36 4f57527c70b0380fe9b2ff3
+btcsatoshi.net##.size-medium
+btcsatoshi.net##.size-large.wp-image-544905
+btcsatoshi.net##li
+readbitcoin.org##.mh-main-nav-wrap
+readbitcoin.org##.size-large.wp-image-549452
+readbitcoin.org##.size-large.wp-image-549450
+readbitcoin.org##blockquote
+crypto4yu.com##.mh-main-nav-wrap
 gainl.ink##.install-prompt-content
 hatecoin.me##.sticky-media-container
 hatecoin.me##.container-fluid > .card
@@ -911,4 +920,7 @@ paylinks.cloud###hbagency_space_43791
 paylinks.cloud###hbagency_space_43784
 paylinks.cloud###hbagency_space_43788_video
 paylinks.cloud###HB_Footer_Close_hbagency_space_43786
-paylinks.cloud###HB_Footer_Close_hbagency_space_43784
+paylinks.cloud###HB
+world2our.com##p
+world2our.com##h2.text-center
+world2our.com##div.text-center > .demand-supply_Footer_Close_hbagency_space_43784
