@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.5.3
+! Title: Re-bFcSn filters V.0.5.4
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -109,6 +109,14 @@ freebnb.top##+js(no-xhr-if, /coinzillatag|czilladx/)
 ||player.twitch.tv/$subdocument
 #@#.ad-box
 ~job.inshokuten.com,~sexgr.net,~webbtelescope.org##.ad-box:not(#ad-banner)
+go.theconomy.me##+js(nostif, checkAdblockUser)
+@@||go.theconomy.me^$ghide
+!go.theconomy.me##+js(rmnt, script, /checkAdblockUser|checkAdsbypasserUser|.adLinkFly.checkAdblockers/)
+go.theconomy.me##+js(aopr, app_vars.force_disable_adblock)
+go.theconomy.me##[src*="player.twitch.tv"], td > .text-center, .text-center > p
+||player.twitch.tv^$domain=go.theconomy.me
+||twitch.map.fastly.net^$domain=go.theconomy.me
+*$script,xhr,3p,domain=go.theconomy.me
 cdrab.com,cryptfaucet.com,offerinfo.net##.adslr
 cryptfaucet.com##._hide
 cryptfaucet.com##.a
@@ -194,7 +202,9 @@ btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,bakumoney.com,coinsl.cl
 @@||ohionowcast.info^$ghide
 @@||gaminginfos.com^$ghide
 btcbitco.in,btcsatoshi.net,wiour.com,readbitcoin.org,crypto4yu.com#@#div.text-center[id]:style(height: 60px !important;)
-btcbitco.in,btcsatoshi.net,wiour.com,readbitcoin.org,crypto4yu.com##div.text-center[id]:style(height: 100px !important;)
+readbitcoin.org,crypto4yu.com##div.text-center[id]:style(height: 100px !important;)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com#@#div.text-center[id]:style(height: 120px !important;)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com##div[id^="a"]:not([class]):style(height: 120px !important;)
 @@||googletagmanager.com/gtag/js$domain=bitcotasks.com|btcsatoshi.net|wiour.com|readbitcoin.org|crypto4yu.com
 @@||hbagency.it/cdn/tcf2_cmp_hbagency.js$domain=bitcotasks.com|btcsatoshi.net|wiour.com|readbitcoin.org|crypto4yu.com
 btcbitco.in,btcsatoshi.net,wiour.com,readbitcoin.org,crypto4yu.com##.post > center > [href] > img
