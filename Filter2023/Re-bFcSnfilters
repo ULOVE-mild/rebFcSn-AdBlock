@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.5.5
+! Title: Re-bFcSn filters V.0.5.6
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -18,6 +18,9 @@ bitcotasks,earnhub.net##ins[style^="display:inline-block"]
 @@||googletagmanager.com^$domain=bitcotasks.com
 @@||cdnjs.cloudflare.com^$domain=bitcotasks.com
 quesignifi.ca##+js(rc, is-hidden)
+healthynepal.in,short2url.xyz##div > div:has-text(Click):style(display: block !important;)
+short2url.xyz###target
+||120898.xyz
 bitcosite.com,exactpay.online,read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
 bitcosite.com,exactpay.online,read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
 @@||pagead2.googlesyndication.com^$domain=alpinecorporate.com|bitcosite.com|mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|crypto4yu.com|readbitcoin.org|cryptorotator.website|blog24.me|rapidshort.lat|gktech.uk|free-pepe.com
@@ -117,6 +120,18 @@ go.theconomy.me##[src*="player.twitch.tv"], td > .text-center, .text-center > p
 ||player.twitch.tv^$domain=go.theconomy.me
 ||twitch.map.fastly.net^$domain=go.theconomy.me
 *$script,xhr,3p,domain=go.theconomy.me
+techcyan.com#@#a[href*=".click"]
+techcyan.com#@#a[href*=".click"]:style(opacity: 0 !important; pointer-events: none !important;)
+techcyan.com##a[href*=".click"]:style(opacity: 0.01 !important; pointer-events: none !important;)
+techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
+otechno.net,shopforex.online##+js(no-fetch-if, googlesyndication)
+otechno.net,shopforex.online##+js(rmnt, script, /isScriptLoaded|chhhsyrratw|onerror/)
+otechno.net,shopforex.online##.demand-supply
+otechno.net,shopforex.online##.the_content
+otechno.net,shopforex.online##div.text-center > .text-center
+otechno.net,shopforex.online##[href="https://devozon.com/"]
+@@||/ads/adv/$script,1p,domain=otechno.net|shopforex.online
+otechno.net,shopforex.online###devozon-snp, #submitBtn, #go_d:style(display: block !important;)
 cdrab.com,cryptfaucet.com,offerinfo.net##.adslr
 cryptfaucet.com##._hide
 cryptfaucet.com##.a
@@ -182,11 +197,6 @@ techacode.com,sahlmarketing.net###link, center, #yuidea-snp, #btn6:style(display
 techacode.com,sahlmarketing.net##+js(set, count, 0)
 techacode.com##+js(aopr, SMart1)
 techacode.com#@#+js(nowoif, !mtraffics)
-techcyan.com#@#a[href*=".click"]
-techcyan.com##a[href*=".click"]:style(height: 58px !important; visibility: hidden !important;)
-techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
-techcyan.com#@#a[href*=".click"]:style(height: 58px !important; visibility: hidden !important;)
-techcyan.com##a[href*=".click"]:style(opacity: 5 !important; pointer-events: none !important;)
 exactpay.online##+js(aopr, htmls)
 exactpay.online##+js(set, document.hasFocus, trueFunc)
 exactpay.online##+js(nostif, offsetWidth)
@@ -250,8 +260,6 @@ unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##+js(aopr, detectAdBloc
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz###wpsafe-generate, #wpsafe-link:style(display: block !important)
 unfoldedstars.com,neverdims.com,bit4me.info,deltabtc.xyz##div[id^="wpsafe-wait"]
 mrproblogger.com,themezon.net##+js(aeld, load, doTest)
-short2url.xyz##form[id]:style(display: block !important;)
-short2url.xyz##.banner-inner
 ||faucettrx.store/default.php
 bigbtc.win##^script:has-text(/block-adb|-0x/)
 !#if !cap_html_filtering
