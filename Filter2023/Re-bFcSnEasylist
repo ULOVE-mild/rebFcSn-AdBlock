@@ -1,4 +1,4 @@
-! Title: Re-bFcSn Easylist V.0.5.7
+! Title: Re-bFcSn Easylist V.0.5.8
 ! Description: Filters optimized for Block, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnEasylist
@@ -36,7 +36,7 @@ cryptfaucet.com,3rabsports.com,gold-24.net,fx-22.com,iwin68.io,iwinfun.com,mmliv
 short1.site,coinsl.click,linksly.co,linx.cc,view.shtfly.com,shtfly.site,otohits.pl,gold-24.net,fx-22.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,yogablogfit.com,url.beycoin.xyz,howifx.com,vocalley.com,calmgram.com,bluetechno.net,forexit.online,en.revly.click,freeoseocheck.com,coinsvalue.net,cookinguide.net,c,ryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,rapidshort.lat,short2url.xyz,illink.net,clicklink.fun,kyshort.xyz,short.shortlinks.info,short.claimbits.site,meykmen.com,arabplus2.co,clk.wiki,d2g.at,go.tgshortener.com##h3
 linx.cc,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,ez4short.com,calmgram.com,bluetechno.net,forexit.online,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,techgeek.digital,short.claimbits.site,alpinecorporate.com,clk.wiki##h4
 iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,calmgram.com,cdrab.com,datacheap.io,admediaflex.com,cryptfaucet.com,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,wiour.com##ul
-beycoin.xyz,offerinfo.net,blog24.me,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,howifx.com,vocalley.com,calmgram.com,zombiebtc.com,68gamebai.io,blog.coinsvalue.net,blog.cookinguide.net,blog.cryptowidgets.net,blog.insurancegold.in,blog.wiki-topia.com,blog.makeupguide.net,blog.carstopia.net,blog.carsmania.net,btcbitco.in,revadvert.com##li
+beycoin.xyz,offerinfo.net,blog24.me,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,howifx.com,vocalley.com,calmgram.com,zombiebtc.com,68gamebai.io,blog.coinsvalue.net,blog.cookinguide.net,blog.cryptowidgets.net,blog.insurancegold.in,blog.wiki-topia.com,blog.makeupguide.net,blog.carstopia.net,blog.carsmania.net,btcbitco.in,revadvert.com,quesignifi.ca##li
 fx-22.com,sahityt.com,sinonimos.de,quesignifi.ca##ol
 url.beycoin.xyz##.col-md-7
 beycoin.xyz##[src="https://blog.beycoin.xyz/wp-content/uploads/2023/05/Group-9119.png"]
@@ -910,3 +910,9 @@ world2our.com##div.text-center > .demand-supply_Footer_Close_hbagency_space_4378
 cutty.app##.partners-container
 cutty.app##.flex.share-icons-container
 cashlinko.com##.text-white.bg-primary
+coinsrev.com##.sec-spacing.single-section > .container > .row
+coinsrev.com###site-nav-wrap
+coinsrev.com##.site-footer-bottom
+en.revly.click##.nav-light.navigation-menu
+en.revly.click##.align-items-center.d-flex.bg-primary.bg-home
+en.revly.click##.mt-100.footer
