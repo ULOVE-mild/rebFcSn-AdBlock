@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.5.6
+! Title: Re-bFcSn filters V.0.5.7
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -17,7 +17,10 @@ bitcotasks,earnhub.net##ins[style^="display:inline-block"]
 @@||d3u598arehftfk.cloudfront.net^$domain=bitcotasks.com
 @@||googletagmanager.com^$domain=bitcotasks.com
 @@||cdnjs.cloudflare.com^$domain=bitcotasks.com
-quesignifi.ca##+js(rc, is-hidden)
+sinonimos.de,quesignifi.ca##+js(set, waitTime, 0)
+sinonimos.de,quesignifi.ca###checkclick:style(display: block !important;)
+ctr.sh,easycut.io##+js(set, blurred, false)
+||i.gyazo.com^$domain=insurancexblog.blogspot.com
 healthynepal.in,short2url.xyz##div > div:has-text(Click):style(display: block !important;)
 short2url.xyz###target
 ||120898.xyz
@@ -42,6 +45,10 @@ carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,mak
 carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com##+js(acs, document.getElementById, /ad(d|ss)/)
 carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net###ad\.js
 blog.carsmania.net,blog.carstopia.net,blog.coinsvalue.net,blog.cookinguide.net,blog.freeoseocheck.com,blog.makeupguide.net##+js(set, navigator.brave, undefined)
+mdn.lol##+js(rmnt, script, documnet.write)
+mdn.lol##+js(rpnt, script, bait.offsetWidth, nop)
+mdn.lol##+js(rpnt, script, window.location.assign(", Trash(")
+!mdn.lol##^script:has-text(adblock.html)
 paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(nostif, check, 1)
 paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(rmnt, script, adBlockDetected)
 paylinks.cloud,exalink.fun,bitcotasks.com,cryptowidgets.net,insurancegold.in,wiki-topia.com##^script[data-script='CallAdBlock-script']:has-text(adBlockDetected)
@@ -203,8 +210,8 @@ exactpay.online##+js(nostif, offsetWidth)
 ||exactpay.online/forex/index.js
 exalink.fun##+js(set, blurred, false)
 ||earnbitmoon.club/promo/EBM-300x250.gif
-btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun,bakumoney.com,coinsl.click,bazadecrypto.com,en.revly.click,link.oscut.fun##+js(aopr, htmls)
-btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,bakumoney.com,coinsl.click,bazadecrypto.com,en.revly.click,link.oscut.fun##+js(acs, document.getElementById, ads)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,gainl.ink,maqal360.com,instantcrypto.info,earnsolana.xyz,exactpay.online,ohionowcast.info,read4btc.com,cryptozao.com,gaminginfos.com,go2.freetrx.fun,bakumoney.com,coinsl.click,coinsrev.com,en.revly.click,link.oscut.fun##+js(aopr, htmls)
+btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,bakumoney.com,coinsl.click,coinsrev.com,en.revly.click,link.oscut.fun##+js(acs, document.getElementById, ads)
 @@||www.googletagmanager.com^$script,domain=crypto4yu.com|readbitcoin.org|bakumoney.com|exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com
 @@||crypto4yu.com^$ghide
 @@||readbitcoin.org^$ghide
