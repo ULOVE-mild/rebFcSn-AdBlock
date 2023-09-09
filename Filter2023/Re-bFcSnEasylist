@@ -1,4 +1,4 @@
-! Title: Re-bFcSn Easylist V.0.5.8
+! Title: Re-bFcSn Easylist V.0.5.9
 ! Description: Filters optimized for Block, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnEasylist
@@ -916,3 +916,13 @@ coinsrev.com##.site-footer-bottom
 en.revly.click##.nav-light.navigation-menu
 en.revly.click##.align-items-center.d-flex.bg-primary.bg-home
 en.revly.click##.mt-100.footer
+en.revly.click##.sticky.defaultscroll
+alpinecorporate.com##.td-pb-padding-side.td-post-header
+alpinecorporate.com##.td-pb-padding-side.td-post-sharing-bottom
+alpinecorporate.com##footer
+alpinecorporate.com##.td-container.td-footer-container
+10short.info,10short.co##span
+10short.info,10short.co##.pb-40
+10short.info###pop > .demand-supply
+10short.com##.text-left > .pb-40
+10short.com##.title
