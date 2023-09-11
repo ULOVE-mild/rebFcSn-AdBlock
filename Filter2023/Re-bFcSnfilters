@@ -127,10 +127,6 @@ go.theconomy.me##[src*="player.twitch.tv"], td > .text-center, .text-center > p
 ||player.twitch.tv^$domain=go.theconomy.me
 ||twitch.map.fastly.net^$domain=go.theconomy.me
 *$script,xhr,3p,domain=go.theconomy.me
-techcyan.com#@#a[href*=".click"]
-techcyan.com#@#a[href*=".click"]:style(opacity: 0 !important; pointer-events: none !important;)
-techcyan.com##a[href*=".click"]:style(opacity: 0.01 !important; pointer-events: none !important;)
-techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
 techcyan.com#@#+js(spoof-css, #btx1, display, block)
 techcyan.com#@#+js(spoof-css, #btx2, display, block)
 techcyan.com#@##btx1, #btx2
