@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.5.8
+! Title: Re-bFcSn filters V.0.5.9
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -131,6 +131,10 @@ techcyan.com#@#a[href*=".click"]
 techcyan.com#@#a[href*=".click"]:style(opacity: 0 !important; pointer-events: none !important;)
 techcyan.com##a[href*=".click"]:style(opacity: 0.01 !important; pointer-events: none !important;)
 techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
+techcyan.com#@#+js(spoof-css, #btx1, display, block)
+techcyan.com#@#+js(spoof-css, #btx2, display, block)
+techcyan.com#@##btx1, #btx2
+techcyan.com##a[href*=".click"]:style(visibility: collapse !important;)
 otechno.net,shopforex.online##+js(no-fetch-if, googlesyndication)
 otechno.net,shopforex.online##+js(rmnt, script, /isScriptLoaded|chhhsyrratw|onerror/)
 otechno.net,shopforex.online##.demand-supply
