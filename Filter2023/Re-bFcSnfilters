@@ -1,4 +1,4 @@
-! Title: Re-bFcSn filters V.0.6
+! Title: Re-bFcSn filters V.0.6.1
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnfilters
@@ -238,6 +238,9 @@ btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,gainl.ink#@#i
 btcbitco.in,btcsatoshi.net,wiour.com,readbitcoin.org,crypto4yu.com##.post > center > [href] > img
 btcbitco.in##+js(acs, addEventListener, devtools)
 btcbitco.in,btcsatoshi.net,wiour.com,readbitcoin.org,crypto4yu.com##+js(acs, document.getElementById, ads)
+btcbitco.in,btcsatoshi.net,wiour.com##+js(nowoif, ?key=)
+/invoke.js$script,redirect-rule=noop.js,domain=btcbitco.in|btcsatoshi.net|wiour.com
+||cryptocoinsad.com/ads/js/popunder.js$script,redirect=noop.js,domain=btcbitco.in|btcsatoshi.net|wiour.com
 ohionowcast.info,cryptozao.com,exactpay.online,bakumoney.online,gaminginfos.com#@#ins.adsbygoogle
 *$frame,redirect-rule=noopframe,domain=exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
 *$xhr,redirect-rule=nooptext,domain=exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
