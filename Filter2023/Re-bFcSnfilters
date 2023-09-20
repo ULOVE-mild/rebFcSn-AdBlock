@@ -312,10 +312,10 @@ dailytime.store##+js(aopr, adsBlocked)
 dailytime.store##.text-left
 dailytime.store##.banner-inner
 terafly.me##+js(nostif, checkAdblockUser)
-*$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
-*$image,redirect-rule=1x1.gif,domain=shrinkbit.in
 adsy.pw###targetdiv, #containerr:style(display: block !important;)
 adsy.pw,playstore.pw##+js(set, PreRollAd.timeCounter, 0)
+*$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
+*$image,redirect-rule=1x1.gif,domain=shrinkbit.in
 cryptospaying.com##^script:has-text(htmls)
 cryptospaying.com##+js(aeld, load, htmls)
 tophostingapp.com,digitalmarktrend.com,fc-lc.xyz###iframe_id
