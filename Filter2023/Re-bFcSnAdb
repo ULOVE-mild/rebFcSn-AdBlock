@@ -1,4 +1,4 @@
-! Title: Re-bFcSn Adb V.0.5.9
+! Title: Re-bFcSn Adb V.0.6
 ! Description: Filters optimized for Block, to be used along EasyList
 ! Last modified: %timestamp%
 ! New filters from July 2023 to ->
@@ -22,10 +22,12 @@ ctr.sh,easycut.io##+js(set, blurred, false)
 ||i.gyazo.com^$domain=insurancexblog.blogspot.com
 healthynepal.in,short2url.xyz##div > div:has-text(Click):style(display: block !important;)
 short2url.xyz###target
+best-shopme.com##+js(aopr, htmls)
+best-shopme.com##+js(aopr, adsBlocked)
 ||120898.xyz
 bitcosite.com,exactpay.online,read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##^script:has-text(htmls)
 bitcosite.com,exactpay.online,read4btc.com,paylinks.cloud,coinsrev.com,en.revly.click,go2.freetrx.fun,bitcotasks.com,cempakajaya.com,masarnajih.com,ad-doge.com,healthmart.link,bitzite.com,brafaucet.site,bakumoney.com,coinsl.click,coredao.tech,sh.techsamir.com##+js(aeld, load, htmls)
-@@||pagead2.googlesyndication.com^$domain=alpinecorporate.com|bitcosite.com|mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|crypto4yu.com|readbitcoin.org|cryptorotator.website|blog24.me|rapidshort.lat|gktech.uk|free-pepe.com
+@@||pagead2.googlesyndication.com^$domain=alpinecorporate.com|bitcosite.com|mdn.lol|surflink.tech|missreview.info|autodime.com|banfaucet.com|mcrypto.club|fight4crypto.online|go2.freetrx.fun|freeclaimfaucet.com|cryptogenz.fun|app.covemarkets.com|bitcotasks.com|link1s.com|blog.makeupguide.net|blog.carstopia.net|blog.carsmania.net|faucet-bit.com|market-games.info|super.offerboom.top|solarchaine.com|super.offerboom.top|coinsrev.com|crypto4yu.com|readbitcoin.org|cryptorotator.website|blog24.me|rapidshort.lat|gktech.uk|free-pepe.com|adsy.pw
 *$csp=style-src *,domain=blog.cryptowidgets.net|blog.insurancegold.in|blog.wiki-topia.com|carsmania.net|carstopia.net|coinsvalue.net|cookinguide.net|freeoseocheck.com|makeupguide.net
 cryptowidgets.net,insurancegold.in,wiki-topia.com,carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net##+js(rmnt, script, /window\.location|Adblock/)
 carsmania.net,carstopia.net,coinsvalue.net,cookinguide.net,freeoseocheck.com,makeupguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com##+js(acs, document.createElement, adsBlocked)
@@ -126,22 +128,30 @@ go.theconomy.me##[src*="player.twitch.tv"], td > .text-center, .text-center > p
 ||player.twitch.tv^$domain=go.theconomy.me
 ||twitch.map.fastly.net^$domain=go.theconomy.me
 *$script,xhr,3p,domain=go.theconomy.me
-techcyan.com#@#a[href*=".click"]
-techcyan.com#@#a[href*=".click"]:style(opacity: 0 !important; pointer-events: none !important;)
-techcyan.com##a[href*=".click"]:style(opacity: 0.01 !important; pointer-events: none !important;)
-techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
-techcyan.com#@#+js(spoof-css, #btx1, display, block)
-techcyan.com#@#+js(spoof-css, #btx2, display, block)
-techcyan.com#@##btx1, #btx2
-techcyan.com##a[href*=".click"]:style(visibility: collapse !important;)
+kiktu.com,techcyan.com#@#a[href*=".click"]
+kiktu.com,techcyan.com#@#a[href*=".click"]:style(opacity: 0 !important; pointer-events: none !important;)
+kiktu.com,techcyan.com##a[href*=".click"]:style(opacity: 0.01 !important; pointer-events: none !important;)
+kiktu.com,techcyan.com###websgridlink, #finalx, #second_btn_div, #bottom_btn, .bottom_btn, #wg-geny, #wg-genx, [src*="google.com/recaptcha"]:others()
+kiktu.com,techcyan.com#@#+js(spoof-css, #btx1, display, block)
+kiktu.com,techcyan.com#@#+js(spoof-css, #btx2, display, block)
+kiktu.com,techcyan.com#@##btx1, #btx2
+kiktu.com,techcyan.com###btx1,#btx2:style(margin-right: -4000px !important;)
+||blogspot.com/*/s336/Upshrink336x280.jpg
+||upshrink.in^$frame,1p
+@@||upshrink.com^$script,1p
+*$image,domain=upshrink.com,redirect-rule=1x1.gif
+upshrink.com##.getox
+upshrink.com##+js(set, blurred, false)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=kiktu.com
 otechno.net,shopforex.online##+js(no-fetch-if, googlesyndication)
-otechno.net,shopforex.online##+js(rmnt, script, /isScriptLoaded|chhhsyrratw|onerror/)
-otechno.net,shopforex.online##.demand-supply
-otechno.net,shopforex.online##.the_content
-otechno.net,shopforex.online##div.text-center > .text-center
-otechno.net,shopforex.online##[href="https://devozon.com/"]
-@@||/ads/adv/$script,1p,domain=otechno.net|shopforex.online
-otechno.net,shopforex.online###devozon-snp, #submitBtn, #go_d:style(display: block !important;)
+world2our.com,forexit.online,bluetechno.net,mobi2c.com,otechno.net,shopforex.online##+js(no-fetch-if, googlesyndication)
+world2our.com,forexit.online,bluetechno.net,mobi2c.com,otechno.net,shopforex.online##+js(rmnt, script, /isScriptLoaded|chhhsyrratw|onerror/)
+world2our.com,forexit.online,bluetechno.net,mobi2c.com,otechno.net,shopforex.online##.demand-supply
+world2our.com,forexit.online,bluetechno.net,mobi2c.com,otechno.net,shopforex.online##.the_content
+world2our.com,forexit.online,bluetechno.net,mobi2c.com,otechno.net,shopforex.online##div.text-center > .text-center
+world2our.com,forexit.online,bluetechno.net,mobi2c.com,otechno.net,shopforex.online##[href="https://devozon.com/"]
+@@||/ads/adv/$script,1p,domain=otechno.net|shopforex.online|mobi2c.com|bluetechno.net|forexit.online|world2our.com
+world2our.com,forexit.online,bluetechno.net,mobi2c.com,otechno.net,shopforex.online###devozon-snp, #submitBtn, #go_d:style(display: block !important;)
 cdrab.com,cryptfaucet.com,offerinfo.net##.adslr
 cryptfaucet.com##._hide
 cryptfaucet.com##.a
@@ -152,54 +162,54 @@ cryptfaucet.com##.a6
 cryptfaucet.com##[href="javascript:hidepromolll();"]
 ||thanks.viewfr.com/webroot/ads/adsterra/
 *$script,redirect-rule=noopjs,domain=freebnbcoin.com
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,rseducationinfo.com,rshostinginfo.com,rsadnetworkinfo.com,rsinsuranceinfo.com,rsfinanceinfo.com,rssoftwareinfo.com,cryptfaucet.com##.a, .b, .c, .d, .e, .f, .g
+advertisingexcel.com,gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,rseducationinfo.com,rshostinginfo.com,rsadnetworkinfo.com,rsinsuranceinfo.com,rsfinanceinfo.com,rssoftwareinfo.com,cryptfaucet.com##.a, .b, .c, .d, .e, .f, .g
 @@||pagead2.googlesyndication.com^$domain=rseducationinfo.com|rshostinginfo.com|rsadnetworkinfo.com|rsinsuranceinfo.com|rsfinanceinfo.com|rssoftwareinfo.com
-@@||www.googletagmanager.com^$domain=mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##button[class^="btn-"]:upward(form):style(display: block !important;)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, _0x)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(set, blurred, false)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##[id^="gpt-passback"]:upward(table)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##[id^="promol"]
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,v,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, document.querySelectorAll, popMagic)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(aopw, _pop)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(set, blurred, false)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###wpsafe-generate, #wpsafe-link:style(display: block !important;)
-mmejoresperfumes.club,isterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###wpsafelink-countdown, #wpsafelinkhuman, div[id^="wpsafe-wait"]
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##.safelink-recatpcha:upward(1):style(display: block !important;)
+@@||www.googletagmanager.com^$domain=gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##button[class^="btn-"]:upward(form):style(display: block !important;)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, _0x)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(set, blurred, false)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##[id^="gpt-passback"]:upward(table)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##[id^="promol"]
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,v,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, document.querySelectorAll, popMagic)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(aopw, _pop)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(set, blurred, false)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###wpsafe-generate, #wpsafe-link:style(display: block !important;)
+gametechreviewer.com,hauntingrealm.com,mmejoresperfumes.club,isterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###wpsafelink-countdown, #wpsafelinkhuman, div[id^="wpsafe-wait"]
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##.safelink-recatpcha:upward(1):style(display: block !important;)
 ||scripts.cleverwebserver.com^$script,redirect-rule=noop.js
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##form > div[id]:style(display: block !important;)
-*$script,redirect-rule=noopjs,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###overlay
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, document.getElementById, /\$\('body'\)|\$\("body"\)/)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, addEventListener, document.getElementById)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, eval, replace)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, onload, jQuery)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(aopr, alert)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(no-fetch-if, wpadmngr)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, redURL)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##^script:has-text(/fetch|AdBlock|demandSupply/)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nosiif, console)
-*$frame,redirect-rule=noopframe,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-*$xhr,redirect-rule=nooptext,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-*$image,redirect-rule=1x1.gif,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-@@*$ghide,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-@@*$xhr,script,1p,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-@@||banner.infoey.com/adbanner.png$image,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##form > div[id]:style(display: block !important;)
+*$script,redirect-rule=noopjs,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###overlay
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, document.getElementById, /\$\('body'\)|\$\("body"\)/)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, addEventListener, document.getElementById)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, eval, replace)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(acs, onload, jQuery)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(aopr, alert)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(no-fetch-if, wpadmngr)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, redURL)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##^script:has-text(/fetch|AdBlock|demandSupply/)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nosiif, console)
+*$frame,redirect-rule=noopframe,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+*$xhr,redirect-rule=nooptext,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+*$image,redirect-rule=1x1.gif,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+@@*$ghide,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+@@*$xhr,script,1p,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+@@||banner.infoey.com/adbanner.png$image,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 !#if env_firefox
-@@||js.wpadmngr.com/static/adManager.js$xhr,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+@@||js.wpadmngr.com/static/adManager.js$xhr,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
 !#endif
-/\/wp-content\/plugins\/(?:[a-z0-9]+){10,}\/(?:[a-z0-9]+){10,}\.js\?ver=/$domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com,important
+/\/wp-content\/plugins\/(?:[a-z0-9]+){10,}\/(?:[a-z0-9]+){10,}\.js\?ver=/$domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com,important
 /\/uniqueten\.net\/[a-z]+\.js$/$script,important
-/adblock-detect.js$script,important,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, console)
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol#@##adsiframe
-@@||ad.a-ads.com/*?size=320x50$object,domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-@@||banner.infoey.com/adbanner.png$domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###content > form[id]:has(> center > button):style(display: block !important;)
-||mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol/2x.png
-||mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol/300x600.png
-@@||taxedborley.com^$domain=mdn.lol|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
-*$object,empty,domain=mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
+/adblock-detect.js$script,important,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol##+js(nostif, console)
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol#@##adsiframe
+@@||ad.a-ads.com/*?size=320x50$object,domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+@@||banner.infoey.com/adbanner.png$domain=mdn.lol|gametechreviewer.com|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+gametechreviewer.com,hauntingrealm.com,mejoresperfumes.club,misterio.ro,batmanfactor.com,laptopfinest.com,allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net,techedifier.com,phineypet.com,talkforfitness.com,mdn.lol###content > form[id]:has(> center > button):style(display: block !important;)
+||hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol/2x.png
+||hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com||mdn.lol/300x600.png
+@@||taxedborley.com^$domain=mdn.lol|hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com
+*$object,empty,domain=hauntingrealm.com|mejoresperfumes.club|misterio.ro|batmanfactor.com|laptopfinest.com|phineypet.com|allcryptoz.net|crewbase.net|crewus.net|shinbhu.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net|techedifier.com|talkforfitness.com|mdn.lol
 #@##adsiframe
 mdn.lol##+js(nostif, /\.innerHtml|offsetWidth/)
 techacode.com,sahlmarketing.net###link, #btn6, #yuidea-snp:remove-attr(disabled)
@@ -230,6 +240,9 @@ btcbitco.in,btcsatoshi.net,crypto4yu.com,readbitcoin.org,wiour.com,gainl.ink#@#i
 btcbitco.in,btcsatoshi.net,wiour.com,readbitcoin.org,crypto4yu.com##.post > center > [href] > img
 btcbitco.in##+js(acs, addEventListener, devtools)
 btcbitco.in,btcsatoshi.net,wiour.com,readbitcoin.org,crypto4yu.com##+js(acs, document.getElementById, ads)
+btcbitco.in,btcsatoshi.net,wiour.com##+js(nowoif, ?key=)
+/invoke.js$script,redirect-rule=noop.js,domain=btcbitco.in|btcsatoshi.net|wiour.com
+||cryptocoinsad.com/ads/js/popunder.js$script,redirect=noop.js,domain=btcbitco.in|btcsatoshi.net|wiour.com
 ohionowcast.info,cryptozao.com,exactpay.online,bakumoney.online,gaminginfos.com#@#ins.adsbygoogle
 *$frame,redirect-rule=noopframe,domain=exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
 *$xhr,redirect-rule=nooptext,domain=exactpay.online|ohionowcast.info|cryptozao.com|gaminginfos.com|go2.freetrx.fun
@@ -290,6 +303,9 @@ bitsmagic.fun,ourcoincash.xyz##+js(rmnt, script, htmls)
 @@||mynewsmedia.co^$ghide
 mynewsmedia.co,revadvert.com##iframe[id^="google_ads_iframe"]:style(height: 1px !important;)
 mynewsmedia.co,revadvert.com###footer-sticky-ad
+gulio.site##.ads
+dinofaucet.com,gulio.site##+js(rmnt, script, RegExp)
+gulio.site###iframe-widget
 bitzite.com##+js(aeld, load, htmls)
 bitzite.com##+js(ra, href, .MyAd > a[target="_blank"])
 bitzite.com##.buttonnya:style(display: block !important;)
@@ -298,10 +314,11 @@ dailytime.store##+js(aopr, adsBlocked)
 dailytime.store##.text-left
 dailytime.store##.banner-inner
 terafly.me##+js(nostif, checkAdblockUser)
-*$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
-*$image,redirect-rule=1x1.gif,domain=shrinkbit.in
 adsy.pw###targetdiv, #containerr:style(display: block !important;)
 adsy.pw,playstore.pw##+js(set, PreRollAd.timeCounter, 0)
+adsy.pw##div[id][style="display: none;"]:style(display: block !important;)
+*$xhr,redirect-rule=nooptext,domain=gaudiumgames.com
+*$image,redirect-rule=1x1.gif,domain=shrinkbit.in
 cryptospaying.com##^script:has-text(htmls)
 cryptospaying.com##+js(aeld, load, htmls)
 tophostingapp.com,digitalmarktrend.com,fc-lc.xyz###iframe_id
@@ -333,15 +350,15 @@ blog.cryptowidgets.net##.textsshow
 blog.cryptowidgets.net##.adblock_subtitle
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net##div.text-center.row
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net#@##countdown ~ :not(center)
-short1.site,coinsl.click,linksly.co,linx.cc,terafly.me,otohits.pl,gold-24.net,3rabsports.com,fx-22.com,adsy.pw,playstore.pw,tech5s.co,hookeaudio.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,pennbookcenter.com,publicananker.com,lucidcam.com,bitcrypto.info,sportweb.info,offerinfo.net,calmgram.com,sahityt.com,zombiebtc.com,blog.zombiebtc.com,btcpany.com,linkmay.me,cryptfaucet.com,cdrab.com,datacheap.io,admediaflex.com,zaloqq.asia,68gamebai.io,deportealdia.live,techmody.io,ez4mods.com,exeo.app,go.techgeek.digital,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,webhostingpost.com,adshorti.xyz,uptechnologys.com,anhdep24.com,hocbeauty.com,gadgetsreview27.com,theconomy.me,insurancepost.xyz,financeandinsurance.xyz,bluetechno.net,forexit.online,sinonimos.de,quesignifi.ca,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,btcsatoshi.net,btcbitco.in,wiour.com,readbitcoin.org,crypto4yu.com,rapidshort.lat,techgeek.digital,short2url.xyz,exego.app,exeurl.com,monimag.com,leaveadvice.com,freeslotchips.com,revadvert.com,illink.net,clicklink.fun,bitsusdt.com,kyshort.xyz,esopress.com,short.shortlinks.info,world2our.com,short.claimbits.site,alpinecorporate.com,meykmen.com,arabplus2.co,clk.wiki,c2g.at,go.tgshortener.com##p
+short1.site,coinsl.click,linksly.co,linx.cc,terafly.me,otohits.pl,gold-24.net,3rabsports.com,fx-22.com,adsy.pw,playstore.pw,tech5s.co,hookeaudio.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,pennbookcenter.com,publicananker.com,lucidcam.com,bitcrypto.info,sportweb.info,offerinfo.net,calmgram.com,sahityt.com,zombiebtc.com,blog.zombiebtc.com,btcpany.com,linkmay.me,cryptfaucet.com,cdrab.com,datacheap.io,admediaflex.com,zaloqq.asia,68gamebai.io,deportealdia.live,techmody.io,ez4mods.com,exeo.app,go.techgeek.digital,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,webhostingpost.com,adshorti.xyz,uptechnologys.com,anhdep24.com,hocbeauty.com,gadgetsreview27.com,theconomy.me,insurancepost.xyz,financeandinsurance.xyz,bluetechno.net,forexit.online,sinonimos.de,quesignifi.ca,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,btcsatoshi.net,btcbitco.in,wiour.com,readbitcoin.org,crypto4yu.com,rapidshort.lat,techgeek.digital,short2url.xyz,exego.app,exeurl.com,monimag.com,leaveadvice.com,freeslotchips.com,revadvert.com,illink.net,clicklink.fun,bitsusdt.com,kyshort.xyz,esopress.com,short.shortlinks.info,world2our.com,short.claimbits.site,alpinecorporate.com,meykmen.com,arabplus2.co,clk.wiki,c2g.at,go.tgshortener.com,dlrtronfaucet.co.in,coinsrev.com##p
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net##.col-sm-12.col-lg-3.col
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net##.col-sm-12.col-lg-8.col
-cdrab.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,bitcrypto.info,sportweb.info,offerinfo.net,freeoseocheck.com,blog.wiki-topia.com,textpro.me##h1
-cryptfaucet.com,3rabsports.com,gold-24.net,fx-22.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,yogablogfit.com,howifx.com,vocalley.com,calmgram.com,wiour.com,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,gadgetsreview27.com,sinonimos.de,quesignifi.ca,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,monimag.com,leaveadvice.com,freeslotchips.com,beycoin.xyz,esopress.com,clk.wiki##h2
-short1.site,coinsl.click,linksly.co,linx.cc,view.shtfly.com,shtfly.site,otohits.pl,gold-24.net,fx-22.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,yogablogfit.com,url.beycoin.xyz,howifx.com,vocalley.com,calmgram.com,bluetechno.net,forexit.online,en.revly.click,freeoseocheck.com,coinsvalue.net,cookinguide.net,c,ryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,rapidshort.lat,short2url.xyz,illink.net,clicklink.fun,kyshort.xyz,short.shortlinks.info,short.claimbits.site,meykmen.com,arabplus2.co,clk.wiki,d2g.at,go.tgshortener.com##h3
+cdrab.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,bitcrypto.info,sportweb.info,offerinfo.net,freeoseocheck.com,blog.wiki-topia.com,textpro.me,bluetechno.net,world2our.com,forexit.online##h1
+cryptfaucet.com,3rabsports.com,gold-24.net,fx-22.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,yogablogfit.com,howifx.com,vocalley.com,calmgram.com,wiour.com,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,gadgetsreview27.com,sinonimos.de,quesignifi.ca,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,monimag.com,leaveadvice.com,freeslotchips.com,beycoin.xyz,esopress.com,clk.wiki,coinsrev.com##h2
+short1.site,coinsl.click,linksly.co,linx.cc,view.shtfly.com,shtfly.site,otohits.pl,gold-24.net,fx-22.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,yogablogfit.com,url.beycoin.xyz,howifx.com,vocalley.com,calmgram.com,bluetechno.net,forexit.online,en.revly.click,freeoseocheck.com,coinsvalue.net,cookinguide.net,c,ryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,rapidshort.lat,short2url.xyz,illink.net,clicklink.fun,kyshort.xyz,short.shortlinks.info,short.claimbits.site,meykmen.com,arabplus2.co,clk.wiki,d2g.at,go.tgshortener.com,dlrtronfaucet.co.in,coinsrev.com##h3
 linx.cc,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,ez4short.com,calmgram.com,bluetechno.net,forexit.online,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,techgeek.digital,short.claimbits.site,alpinecorporate.com,clk.wiki##h4
 iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,calmgram.com,cdrab.com,datacheap.io,admediaflex.com,cryptfaucet.com,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,wiour.com##ul
-beycoin.xyz,offerinfo.net,blog24.me,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,howifx.com,vocalley.com,calmgram.com,zombiebtc.com,68gamebai.io,blog.coinsvalue.net,blog.cookinguide.net,blog.cryptowidgets.net,blog.insurancegold.in,blog.wiki-topia.com,blog.makeupguide.net,blog.carstopia.net,blog.carsmania.net,btcbitco.in,revadvert.com,quesignifi.ca##li
+beycoin.xyz,offerinfo.net,blog24.me,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,howifx.com,vocalley.com,calmgram.com,zombiebtc.com,68gamebai.io,blog.coinsvalue.net,blog.cookinguide.net,blog.cryptowidgets.net,blog.insurancegold.in,blog.wiki-topia.com,blog.makeupguide.net,blog.carstopia.net,blog.carsmania.net,btcbitco.in,revadvert.com,quesignifi.ca,bluetechno.net,world2our.com,forexit.online,coinsrev.com##li
 fx-22.com,sahityt.com,sinonimos.de,quesignifi.ca##ol
 url.beycoin.xyz##.col-md-7
 beycoin.xyz##[src="https://blog.beycoin.xyz/wp-content/uploads/2023/05/Group-9119.png"]
@@ -377,9 +394,21 @@ mdn.lol##div.form-group
 mdn.lol##.text-right
 mdn.lol##.text-center > div
 mdn.lol##div.demand-supply
-coinsrev.com###primary > .theiaStickySidebar
-coinsrev.com##.widget_nav_menu.widget
+coinsrev.com###site-nav-wrap
+coinsrev.com##.card_title
+coinsrev.com##.post-thumbnail
+coinsrev.com###ez-toc-container
+coinsrev.com##.related-post > .row
+coinsrev.com##.widget-area
 coinsrev.com##.col-lg-1-3.col-md-1-3.col-12
+coinsrev.com##.site-footer-bottom
+coinsrev.com##.column-1
+coinsrev.com##.column-2
+coinsrev.com##.column-3
+en.revly.click##.nav-light.navigation-menu
+en.revly.click##.align-items-center.d-flex.bg-primary.bg-home
+en.revly.click##.mt-100.footer
+en.revly.click##.sticky.defaultscroll
 en.revly.click##.blog-content
 en.revly.click##.container-fluid
 try2link.com##.text-left.box-main2
@@ -551,9 +580,6 @@ techhadi.com##.mh-clearfix.mh-container-inner.mh-container.mh-main-nav.mh-naviga
 techhadi.com##.mh-copyright-wrap
 go.tplinks.in##.blog-content > p
 go.tplinks.in##.page-header > h3
-coinsrev.com###primary > .theiaStickySidebar
-coinsrev.com##.widget_nav_menu.widget
-coinsrev.com##.col-lg-1-3.col-md-1-3.col-12
 networkhint.com##.adb-top > center
 networkhint.com##.text-center.wpsafe-top > center
 url.beycoin.xyz###link-view .row
@@ -643,7 +669,7 @@ clicklink.fun##.row > .ads
 clicklink.fun##.bg_cover.footer-area
 sahityt.com,gadgetsreview27.com##.pFoot
 sahityt.com,gadgetsreview27.com##.ps.pSml.pInf
-short.shortlinks.info,inshort.pro,clicklink.fun,short1.site,linksly.co,sl.ltc25.in,ser3.crazyblog.in,panyshort.link,viply.icu,linkjust.com,easycut.io,shtfly.site,startoshi.com,short2url.xyz,otohits.pl,shrinkbit.in,go.bitcosite.com,urlcash.site,softindex.site,softindex.website,urlcash.click,g4z.one,rapidshort.lat,get.paid4file.com,shrinkme.in,solarchaine.com,rainurl.com,dash-free.com,illink.net,cash.earnify.pro,yofaurls.com,go.tgshortener.com,earn24.fun,loptelink.com,ez4short.com,calmgram.com,url.beycoin.xyz,blog.adlink.click,coinsl.click,kyshort.xyz,oscut.space,ctr.sh,adsquite.com,short.express,go.linksly.co,panylink.com,birdurls.com,owllink.net,cryptosh.pro,shrinkme.link,shortnow.top,cpm.icu,v2p.icu,birdurls.com,blog.shrinkme.link,go.illink.net,go.owllink.net,go.birdurls.com,exalink.fun,panyflay.me,linkmay.me,slfly.me,go.tplinks.in,adrev.link,thanks.wez.info,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,flyad.vip,shrinke.me,sigmalinks.in,paylinks.cloud,linko.earnify.pro,insfly.pw,c2g.at,cashlinko.com###cookie-pop
+dlrtronfaucet.co.in,earnify.pro,linksfly.link,short.shortlinks.info,inshort.pro,clicklink.fun,short1.site,linksly.co,sl.ltc25.in,ser3.crazyblog.in,panyshort.link,viply.icu,linkjust.com,easycut.io,shtfly.site,startoshi.com,short2url.xyz,otohits.pl,shrinkbit.in,go.bitcosite.com,urlcash.site,softindex.site,softindex.website,urlcash.click,g4z.one,rapidshort.lat,get.paid4file.com,shrinkme.in,solarchaine.com,rainurl.com,dash-free.com,illink.net,cash.earnify.pro,yofaurls.com,go.tgshortener.com,earn24.fun,loptelink.com,ez4short.com,calmgram.com,url.beycoin.xyz,blog.adlink.click,coinsl.click,kyshort.xyz,oscut.space,ctr.sh,adsquite.com,short.express,go.linksly.co,panylink.com,birdurls.com,owllink.net,cryptosh.pro,shrinkme.link,shortnow.top,cpm.icu,v2p.icu,birdurls.com,blog.shrinkme.link,go.illink.net,go.owllink.net,go.birdurls.com,exalink.fun,panyflay.me,linkmay.me,slfly.me,go.tplinks.in,adrev.link,thanks.wez.info,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,flyad.vip,shrinke.me,sigmalinks.in,paylinks.cloud,linko.earnify.pro,insfly.pw,c2g.at,cashlinko.com###cookie-pop
 flyad.vip,shrinke.me,sigmalinks.in,paylinks.cloud##.blog-item
 viply.icu##.banner-336x280.banner > .banner-inner
 blog.panytourism.online##.clear.site-header
@@ -746,7 +772,7 @@ autodime.com,zombiebtc.com,blog.zombiebtc.com,btcpany.com##.row
 zombiebtc.com,blog.zombiebtc.com,btcpany.com##.main-content
 zombiebtc.com,blog.zombiebtc.com,btcpany.com##[src="https://respinor.com/wp-content/uploads/2017/04/logo-dummy.png"]
 zombiebtc.com,blog.zombiebtc.com##.td-fix-index.tdb-block-inner
-monimag.com,leaveadvice.com,esopress.com,zombiebtc.com,freeslotchips.com##span
+paraplatformu.com,mamahawa.com,10short.pro,10short.info,10short.co,modmania.eu.org,comofazer.fun,coinsrev.com,monimag.com,leaveadvice.com,esopress.com,zombiebtc.com,freeslotchips.com##span
 zombiebtc.com##.content > div:nth-of-type(2)
 panytourism.online##.wrapper-outer
 zombiebtc.com##.row-hover
@@ -764,7 +790,6 @@ topadcoin.com##.alert-warning.alert
 comofazer.fun##.right-sidebar.cf.ts-contain.main
 comofazer.fun###smart-head
 comofazer.fun##.bold-footer-lower.lower-footer
-comofazer.fun##span
 3rabsports.com,forexrw7.com,gold-24.net,fx-22.com,forex-articles.com,en.themezon.net,apasih.my.id,bitzite.comthebrightlamps.com,nextvidya.com##.site-header
 thebrightlamps.com,nextvidya.com###content
 thebrightlamps.com,nextvidya.com##.text-center.wpsafe-top > div:nth-of-type(1)
@@ -1022,7 +1047,6 @@ www.modmania.eu.org##.sp
 www.modmania.eu.org##.dlBox
 www.modmania.eu.org###Information
 www.modmania.eu.org##.ps.pSml.pInf
-www.modmania.eu.org##span
 www.modmania.eu.org##.brdCmb
 www.modmania.eu.org###Info
 www.modmania.eu.org##.sidebar.blogItm
@@ -1167,7 +1191,6 @@ pythondunyasi.com###sp-header
 pythondunyasi.com##.bobxed
 pythondunyasi.com##.reaction-buttons
 pythondunyasi.com##footer
-paraplatformu.com##span
 paraplatformu.com###sp-header
 paraplatformu.com##.bobxed
 sevenjournals.com##.header-main-area
@@ -1215,19 +1238,24 @@ world2our.com##div.text-center > .demand-supply_Footer_Close_hbagency_space_4378
 cutty.app##.partners-container
 cutty.app##.flex.share-icons-container
 cashlinko.com##.text-white.bg-primary
-coinsrev.com##.sec-spacing.single-section > .container > .row
-coinsrev.com###site-nav-wrap
-coinsrev.com##.site-footer-bottom
-en.revly.click##.nav-light.navigation-menu
-en.revly.click##.align-items-center.d-flex.bg-primary.bg-home
-en.revly.click##.mt-100.footer
-en.revly.click##.sticky.defaultscroll
 alpinecorporate.com##.td-pb-padding-side.td-post-header
 alpinecorporate.com##.td-pb-padding-side.td-post-sharing-bottom
 alpinecorporate.com##footer
 alpinecorporate.com##.td-container.td-footer-container
-10short.info,10short.co##span
-10short.info,10short.co##.pb-40
-10short.info###pop > .demand-supply
-10short.com##.text-left > .pb-40
-10short.com##.title
+mamahawa.com,10short.pro,10short.info,10short.co##.pb-40
+mamahawa.com,10short.pro,10short.info###pop > .demand-supply
+mamahawa.com,10short.pro,10short.com##.text-left > .pb-40
+mamahawa.com,10short.pro,10short.com##.title
+world2our.com,forexit.online##.captcha-check.mt-1.alert-light.alert
+world2our.com##strong
+world2our.com##h4
+bluetechno.net##h2.text-center
+forexit.online###\31 3_CMYA2
+forexit.online###\31 4_BLONSR
+forexit.online###\31 5_BOKA
+enit.in##.box-main > div#gads.banner-inner > center
+dlrtronfaucet.co.in##.banner-336x280.banner
+leaveadvice.com##.ez-vid-placeholder.vjs-16-9.video-js
+mensventure.com##div.article:nth-of-type(7)
+leaveadvice.com###lds-ring-ez-o
+whoopyrewards.com##.ads
