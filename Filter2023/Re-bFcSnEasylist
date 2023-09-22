@@ -1,4 +1,4 @@
-! Title: Re-bFcSn Easylist V.0.6.3
+! Title: Re-bFcSn Easylist V.0.6.4
 ! Description: Filters optimized for Block, to be used along EasyList
 ! Last modified: %timestamp%
 ! Homepage: https://raw.githubusercontent.com/RebornbFcSn/rebFcSn-AdBlock/main/Filter2023/Re-bFcSnEasylist
@@ -28,7 +28,7 @@ blog.cryptowidgets.net##.textsshow
 blog.cryptowidgets.net##.adblock_subtitle
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net##div.text-center.row
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net#@##countdown ~ :not(center)
-short1.site,coinsl.click,linksly.co,linx.cc,terafly.me,otohits.pl,gold-24.net,3rabsports.com,fx-22.com,adsy.pw,playstore.pw,tech5s.co,hookeaudio.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,pennbookcenter.com,publicananker.com,lucidcam.com,bitcrypto.info,sportweb.info,offerinfo.net,calmgram.com,sahityt.com,zombiebtc.com,blog.zombiebtc.com,btcpany.com,linkmay.me,cryptfaucet.com,cdrab.com,datacheap.io,admediaflex.com,zaloqq.asia,68gamebai.io,deportealdia.live,techmody.io,ez4mods.com,exeo.app,go.techgeek.digital,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,webhostingpost.com,adshorti.xyz,uptechnologys.com,anhdep24.com,hocbeauty.com,gadgetsreview27.com,theconomy.me,insurancepost.xyz,financeandinsurance.xyz,bluetechno.net,forexit.online,sinonimos.de,quesignifi.ca,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,btcsatoshi.net,btcbitco.in,wiour.com,readbitcoin.org,crypto4yu.com,rapidshort.lat,techgeek.digital,short2url.xyz,exego.app,exeurl.com,monimag.com,leaveadvice.com,freeslotchips.com,revadvert.com,illink.net,clicklink.fun,bitsusdt.com,kyshort.xyz,esopress.com,short.shortlinks.info,world2our.com,short.claimbits.site,alpinecorporate.com,meykmen.com,arabplus2.co,clk.wiki,c2g.at,go.tgshortener.com,dlrtronfaucet.co.in,coinsrev.com##p
+short1.site,coinsl.click,linksly.co,linx.cc,terafly.me,otohits.pl,gold-24.net,3rabsports.com,fx-22.com,adsy.pw,playstore.pw,tech5s.co,hookeaudio.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,pennbookcenter.com,publicananker.com,lucidcam.com,bitcrypto.info,sportweb.info,offerinfo.net,calmgram.com,sahityt.com,zombiebtc.com,blog.zombiebtc.com,btcpany.com,linkmay.me,cryptfaucet.com,cdrab.com,datacheap.io,admediaflex.com,zaloqq.asia,68gamebai.io,deportealdia.live,techmody.io,ez4mods.com,exeo.app,go.techgeek.digital,thanks.tinygo.co,thanks.tinycmd.com,thanks.tinybc.com,thanks.viewfr.com,thanks.urlw.net,webhostingpost.com,adshorti.xyz,uptechnologys.com,anhdep24.com,hocbeauty.com,gadgetsreview27.com,theconomy.me,insurancepost.xyz,financeandinsurance.xyz,bluetechno.net,forexit.online,sinonimos.de,quesignifi.ca,freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net,btcsatoshi.net,btcbitco.in,wiour.com,readbitcoin.org,crypto4yu.com,rapidshort.lat,techgeek.digital,short2url.xyz,exego.app,exeurl.com,monimag.com,leaveadvice.com,freeslotchips.com,revadvert.com,illink.net,clicklink.fun,bitsusdt.com,kyshort.xyz,esopress.com,short.shortlinks.info,world2our.com,short.claimbits.site,alpinecorporate.com,meykmen.com,arabplus2.co,clk.wiki,c2g.at,go.tgshortener.com,dlrtronfaucet.co.in,coinsrev.com,tophostingapp.com##p
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net##.col-sm-12.col-lg-3.col
 freeoseocheck.com,coinsvalue.net,cookinguide.net,cryptowidgets.net,insurancegold.in,wiki-topia.com,makeupguide.net,carstopia.net,carsmania.net##.col-sm-12.col-lg-8.col
 cdrab.com,iwin68.io,iwinfun.com,mmlive.plus,iwin39.com,bitcrypto.info,sportweb.info,offerinfo.net,freeoseocheck.com,blog.wiki-topia.com,textpro.me,bluetechno.net,world2our.com,forexit.online##h1
@@ -49,29 +49,29 @@ phineypet.com##.h
 phineypet.com##.i
 blog.carsmania.net##.py-4.footer
 clk.wiki##[src="/img/dTWIG28.png"]
-mdn.lol##div[style="min-width: 300px; min-height: 50px;"]
-mdn.lol##div[style="min-width: 728px; min-height: 90px;"]
-mdn.lol##.fa-xmark.svg-inline--fa
-mdn.lol##div[style="width:305px;height:105px;display: inline-block;margin: 0 auto;overflow:hidden;"]
-mdn.lol##div[style="width:305px;height:205px;display: inline-block;margin: 0 auto;overflow:hidden;"]
-mdn.lol##div[style="width:305px;height:305px;display: inline-block;margin: 0 auto;overflow:hidden;"]
-mdn.lol##div[style="width:305px;height:125px;display: inline-block;margin: 0 auto;overflow:hidden;"]
-mdn.lol##div[style="width:728px;height:125px;display: inline-block;margin: 0 auto;overflow:hidden;"]
-mdn.lol###w2g-slot1-cnt
-mdn.lol###w2g-slot2-cnt
-mdn.lol###w2g-slot3-cnt
-mdn.lol###w2g-slot4-cnt
-mdn.lol###w2g-slot5-cnt
-mdn.lol###w2g-slot6-cnt
-mdn.lol###w2g-slot7-cnt
-mdn.lol###w2g-slot8-cnt
-mdn.lol###w2g-slot9-cnt
-mdn.lol##form > div[id]:style(display: block !important;)
-mdn.lol##.text-center > center
-mdn.lol##div.form-group
-mdn.lol##.text-right
-mdn.lol##.text-center > div
-mdn.lol##div.demand-supply
+homeculina.com,mdn.lol##div[style="min-width: 300px; min-height: 50px;"]
+homeculina.com,mdn.lol##div[style="min-width: 728px; min-height: 90px;"]
+homeculina.com,mdn.lol##.fa-xmark.svg-inline--fa
+homeculina.com,mdn.lol##div[style="width:305px;height:105px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+homeculina.com,mdn.lol##div[style="width:305px;height:205px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+homeculina.com,mdn.lol##div[style="width:305px;height:305px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+homeculina.com,mdn.lol##div[style="width:305px;height:125px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+homeculina.com,mdn.lol##div[style="width:728px;height:125px;display: inline-block;margin: 0 auto;overflow:hidden;"]
+homeculina.com,mdn.lol###w2g-slot1-cnt
+homeculina.com,mdn.lol###w2g-slot2-cnt
+homeculina.com,mdn.lol###w2g-slot3-cnt
+homeculina.com,mdn.lol###w2g-slot4-cnt
+homeculina.com,mdn.lol###w2g-slot5-cnt
+homeculina.com,mdn.lol###w2g-slot6-cnt
+homeculina.com,mdn.lol###w2g-slot7-cnt
+homeculina.com,mdn.lol###w2g-slot8-cnt
+homeculina.com,mdn.lol###w2g-slot9-cnt
+homeculina.com,mdn.lol##form > div[id]:style(display: block !important;)
+homeculina.com,mdn.lol##.text-center > center
+homeculina.com,mdn.lol##div.form-group
+homeculina.com,mdn.lol##.text-right
+homeculina.com,mdn.lol##.text-center > div
+homeculina.com,mdn.lol##div.demand-supply
 coinsrev.com###site-nav-wrap
 coinsrev.com##.card_title
 coinsrev.com##.post-thumbnail
@@ -896,7 +896,6 @@ alpinecorporate.com###admania-primarysidebar
 short.claimbits.site##strong
 short.claimbits.site##.box-main > center
 short.claimbits.site##.blog-item
-tophostingapp.com,digitalmarktrend.com###container > .my-3
 go.theconomy.me##[src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FJunglerLG%2Fvideos%2F219848617404166%2F&show_text=false&width=560&t=0"]
 go.theconomy.me##[src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FJunglerLG%2Fvideos%2F225358747170087%2F&show_text=false&width=560&t=0"]
 textpro.me##.content-wrapper
@@ -913,6 +912,8 @@ paylinks.cloud###HB_Footer_Close_hbagency_space_43786
 paylinks.cloud###HB
 world2our.com##h2.text-center
 world2our.com##div.text-center > .demand-supply_Footer_Close_hbagency_space_43784
+tophostingapp.com###content > .p-2.shadow-sm
+tophostingapp.com##div#content.p-2.shadow-sm:nth-of-type(3)
 cutty.app##.partners-container
 cutty.app##.flex.share-icons-container
 cashlinko.com##.text-white.bg-primary
@@ -933,3 +934,16 @@ forexit.online###\31 4_BLONSR
 forexit.online###\31 5_BOKA
 enit.in##.box-main > div#gads.banner-inner > center
 dlrtronfaucet.co.in##.banner-336x280.banner
+leaveadvice.com##.ez-vid-placeholder.vjs-16-9.video-js
+mensventure.com##div.article:nth-of-type(7)
+leaveadvice.com###lds-ring-ez-o
+whoopyrewards.com##.ads
+topadcoin.com##.mx-auto
+kenzo-flowertag.com,homeculina.com##form.text-center > div.form-group > div
+kenzo-flowertag.com,homeculina.com###content > .form-group
+homeculina.com##[src="https://i.ibb.co/GVVCmgC/728x90.gif"]
+||beycoin.xyz/bits-ads.php?type=1&&ids=2$subdocument
+url.beycoin.xyz###beycoin\.xyz
+url.beycoin.xyz##h1
+url.beycoin.xyz##h4
+panyshort.link,panyflay.me,panylink.com##.banner-336x280.banner
